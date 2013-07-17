@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB04C4F417972ED5008659A9 /* TDOTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04C4F317972ED5008659A9 /* TDOTextField.m */; };
+		AB04C4F61797458F008659A9 /* ParcelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB04C4F51797458F008659A9 /* ParcelKit.framework */; };
+		AB7E74E61796B16A002CABF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E51796B16A002CABF1 /* UIKit.framework */; };
+		AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E71796B16A002CABF1 /* Foundation.framework */; };
+		AB7E74EA1796B16A002CABF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E91796B16A002CABF1 /* CoreGraphics.framework */; };
+		AB7E74F01796B16A002CABF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB7E74EE1796B16A002CABF1 /* InfoPlist.strings */; };
+		AB7E74F21796B16A002CABF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E74F11796B16A002CABF1 /* main.m */; };
+		AB7E74F81796B16A002CABF1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E74F71796B16A002CABF1 /* Default.png */; };
+		AB7E74FA1796B16A002CABF1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E74F91796B16A002CABF1 /* Default@2x.png */; };
+		AB7E74FC1796B16A002CABF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E74FB1796B16A002CABF1 /* Default-568h@2x.png */; };
+		AB7E74FF1796B16A002CABF1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E74FD1796B16A002CABF1 /* MainStoryboard.storyboard */; };
+		AB7E75091796B18E002CABF1 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75081796B18E002CABF1 /* libc++.dylib */; };
+		AB7E750B1796B193002CABF1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E750A1796B193002CABF1 /* QuartzCore.framework */; };
+		AB7E750D1796B199002CABF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E750C1796B199002CABF1 /* Security.framework */; };
+		AB7E750F1796B1A1002CABF1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E750E1796B1A1002CABF1 /* CFNetwork.framework */; };
+		AB7E75111796B1A9002CABF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */; };
+		AB7E75131796B1B5002CABF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */; };
+		AB7E75291796B94F002CABF1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75281796B94F002CABF1 /* CoreData.framework */; };
+		ABDD18921796BEEE00F6111F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18811796BEEE00F6111F /* AppDelegate.m */; };
+		ABDD18931796BEEE00F6111F /* TDOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18831796BEEE00F6111F /* TDOSettingsViewController.m */; };
+		ABDD18941796BEEE00F6111F /* TDOTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18851796BEEE00F6111F /* TDOTaskListViewController.m */; };
+		ABDD18951796BEEE00F6111F /* TDODataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18881796BEEE00F6111F /* TDODataManager.m */; };
+		ABDD18961796BEEE00F6111F /* TDOTag.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD188A1796BEEE00F6111F /* TDOTag.m */; };
+		ABDD18971796BEEE00F6111F /* TDOTask.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD188C1796BEEE00F6111F /* TDOTask.m */; };
+		ABDD18981796BEEE00F6111F /* Toado.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABDD188D1796BEEE00F6111F /* Toado.xcdatamodeld */; };
+		ABDD18991796BEEE00F6111F /* TDOTaskCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18911796BEEE00F6111F /* TDOTaskCell.m */; };
+		ABDD189D1796BF0800F6111F /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDD189B1796BF0800F6111F /* Dropbox.framework */; };
+		ABDD18A11796C06800F6111F /* TDOTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18A01796C06800F6111F /* TDOTaskViewController.m */; };
+		ABDD18A41796C0E700F6111F /* Task.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDD18A21796C0E700F6111F /* Task.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB04C4F217972ED5008659A9 /* TDOTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTextField.h; sourceTree = "<group>"; };
+		AB04C4F317972ED5008659A9 /* TDOTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTextField.m; sourceTree = "<group>"; };
+		AB04C4F51797458F008659A9 /* ParcelKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParcelKit.framework; sourceTree = "<group>"; };
+		AB7E74E21796B16A002CABF1 /* Toado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E74E51796B16A002CABF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB7E74E71796B16A002CABF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB7E74E91796B16A002CABF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB7E74ED1796B16A002CABF1 /* Toado-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toado-Info.plist"; sourceTree = "<group>"; };
+		AB7E74EF1796B16A002CABF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB7E74F11796B16A002CABF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7E74F31796B16A002CABF1 /* Toado-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toado-Prefix.pch"; sourceTree = "<group>"; };
+		AB7E74F71796B16A002CABF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB7E74F91796B16A002CABF1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB7E74FB1796B16A002CABF1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB7E74FE1796B16A002CABF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AB7E75081796B18E002CABF1 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		AB7E750A1796B193002CABF1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB7E750C1796B199002CABF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AB7E750E1796B1A1002CABF1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB7E75281796B94F002CABF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABDD18801796BEEE00F6111F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABDD18811796BEEE00F6111F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABDD18821796BEEE00F6111F /* TDOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOSettingsViewController.h; sourceTree = "<group>"; };
+		ABDD18831796BEEE00F6111F /* TDOSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOSettingsViewController.m; sourceTree = "<group>"; };
+		ABDD18841796BEEE00F6111F /* TDOTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTaskListViewController.h; sourceTree = "<group>"; };
+		ABDD18851796BEEE00F6111F /* TDOTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTaskListViewController.m; sourceTree = "<group>"; };
+		ABDD18871796BEEE00F6111F /* TDODataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDODataManager.h; sourceTree = "<group>"; };
+		ABDD18881796BEEE00F6111F /* TDODataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDODataManager.m; sourceTree = "<group>"; };
+		ABDD18891796BEEE00F6111F /* TDOTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTag.h; sourceTree = "<group>"; };
+		ABDD188A1796BEEE00F6111F /* TDOTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTag.m; sourceTree = "<group>"; };
+		ABDD188B1796BEEE00F6111F /* TDOTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTask.h; sourceTree = "<group>"; };
+		ABDD188C1796BEEE00F6111F /* TDOTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTask.m; sourceTree = "<group>"; };
+		ABDD188E1796BEEE00F6111F /* Toado.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Toado.xcdatamodel; sourceTree = "<group>"; };
+		ABDD18901796BEEE00F6111F /* TDOTaskCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTaskCell.h; sourceTree = "<group>"; };
+		ABDD18911796BEEE00F6111F /* TDOTaskCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTaskCell.m; sourceTree = "<group>"; };
+		ABDD189B1796BF0800F6111F /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		ABDD189F1796C06800F6111F /* TDOTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTaskViewController.h; sourceTree = "<group>"; };
+		ABDD18A01796C06800F6111F /* TDOTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTaskViewController.m; sourceTree = "<group>"; };
+		ABDD18A31796C0E700F6111F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Task.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7E74DF1796B16A002CABF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E75291796B94F002CABF1 /* CoreData.framework in Frameworks */,
+				AB7E75131796B1B5002CABF1 /* SystemConfiguration.framework in Frameworks */,
+				AB7E75111796B1A9002CABF1 /* MobileCoreServices.framework in Frameworks */,
+				AB7E750F1796B1A1002CABF1 /* CFNetwork.framework in Frameworks */,
+				AB7E750D1796B199002CABF1 /* Security.framework in Frameworks */,
+				AB7E750B1796B193002CABF1 /* QuartzCore.framework in Frameworks */,
+				AB7E75091796B18E002CABF1 /* libc++.dylib in Frameworks */,
+				AB7E74E61796B16A002CABF1 /* UIKit.framework in Frameworks */,
+				AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */,
+				AB7E74EA1796B16A002CABF1 /* CoreGraphics.framework in Frameworks */,
+				ABDD189D1796BF0800F6111F /* Dropbox.framework in Frameworks */,
+				AB04C4F61797458F008659A9 /* ParcelKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7E74D91796B16A002CABF1 = {
+			isa = PBXGroup;
+			children = (
+				AB7E74EB1796B16A002CABF1 /* Toado */,
+				ABDD189A1796BF0800F6111F /* Vendor */,
+				AB7E74E41796B16A002CABF1 /* Frameworks */,
+				AB7E74E31796B16A002CABF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7E74E31796B16A002CABF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E74E21796B16A002CABF1 /* Toado.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7E74E41796B16A002CABF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E75081796B18E002CABF1 /* libc++.dylib */,
+				AB7E75281796B94F002CABF1 /* CoreData.framework */,
+				AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */,
+				AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */,
+				AB7E750E1796B1A1002CABF1 /* CFNetwork.framework */,
+				AB7E750C1796B199002CABF1 /* Security.framework */,
+				AB7E750A1796B193002CABF1 /* QuartzCore.framework */,
+				AB7E74E51796B16A002CABF1 /* UIKit.framework */,
+				AB7E74E71796B16A002CABF1 /* Foundation.framework */,
+				AB7E74E91796B16A002CABF1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB7E74EB1796B16A002CABF1 /* Toado */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD187E1796BEEE00F6111F /* Classes */,
+				AB7E75241796B5E2002CABF1 /* Resources */,
+				AB7E74EC1796B16A002CABF1 /* Supporting Files */,
+			);
+			path = Toado;
+			sourceTree = "<group>";
+		};
+		AB7E74EC1796B16A002CABF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E74ED1796B16A002CABF1 /* Toado-Info.plist */,
+				AB7E74EE1796B16A002CABF1 /* InfoPlist.strings */,
+				AB7E74F11796B16A002CABF1 /* main.m */,
+				AB7E74F31796B16A002CABF1 /* Toado-Prefix.pch */,
+				AB7E74F71796B16A002CABF1 /* Default.png */,
+				AB7E74F91796B16A002CABF1 /* Default@2x.png */,
+				AB7E74FB1796B16A002CABF1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB7E75241796B5E2002CABF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E74FD1796B16A002CABF1 /* MainStoryboard.storyboard */,
+				ABDD18A21796C0E700F6111F /* Task.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABDD187E1796BEEE00F6111F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD18861796BEEE00F6111F /* Models */,
+				ABDD188F1796BEEE00F6111F /* Views */,
+				ABDD187F1796BEEE00F6111F /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ABDD187F1796BEEE00F6111F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD18801796BEEE00F6111F /* AppDelegate.h */,
+				ABDD18811796BEEE00F6111F /* AppDelegate.m */,
+				ABDD18821796BEEE00F6111F /* TDOSettingsViewController.h */,
+				ABDD18831796BEEE00F6111F /* TDOSettingsViewController.m */,
+				ABDD18841796BEEE00F6111F /* TDOTaskListViewController.h */,
+				ABDD18851796BEEE00F6111F /* TDOTaskListViewController.m */,
+				ABDD189F1796C06800F6111F /* TDOTaskViewController.h */,
+				ABDD18A01796C06800F6111F /* TDOTaskViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABDD18861796BEEE00F6111F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD188D1796BEEE00F6111F /* Toado.xcdatamodeld */,
+				ABDD18871796BEEE00F6111F /* TDODataManager.h */,
+				ABDD18881796BEEE00F6111F /* TDODataManager.m */,
+				ABDD18891796BEEE00F6111F /* TDOTag.h */,
+				ABDD188A1796BEEE00F6111F /* TDOTag.m */,
+				ABDD188B1796BEEE00F6111F /* TDOTask.h */,
+				ABDD188C1796BEEE00F6111F /* TDOTask.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABDD188F1796BEEE00F6111F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD18901796BEEE00F6111F /* TDOTaskCell.h */,
+				ABDD18911796BEEE00F6111F /* TDOTaskCell.m */,
+				AB04C4F217972ED5008659A9 /* TDOTextField.h */,
+				AB04C4F317972ED5008659A9 /* TDOTextField.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABDD189A1796BF0800F6111F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AB04C4F51797458F008659A9 /* ParcelKit.framework */,
+				ABDD189B1796BF0800F6111F /* Dropbox.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7E74E11796B16A002CABF1 /* Toado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E75051796B16A002CABF1 /* Build configuration list for PBXNativeTarget "Toado" */;
+			buildPhases = (
+				AB7E74DE1796B16A002CABF1 /* Sources */,
+				AB7E74DF1796B16A002CABF1 /* Frameworks */,
+				AB7E74E01796B16A002CABF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toado;
+			productName = Toado;
+			productReference = AB7E74E21796B16A002CABF1 /* Toado.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7E74DA1796B16A002CABF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TDO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Overcommitted, LLC.";
+			};
+			buildConfigurationList = AB7E74DD1796B16A002CABF1 /* Build configuration list for PBXProject "Toado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB7E74D91796B16A002CABF1;
+			productRefGroup = AB7E74E31796B16A002CABF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7E74E11796B16A002CABF1 /* Toado */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7E74E01796B16A002CABF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E74F01796B16A002CABF1 /* InfoPlist.strings in Resources */,
+				AB7E74F81796B16A002CABF1 /* Default.png in Resources */,
+				AB7E74FA1796B16A002CABF1 /* Default@2x.png in Resources */,
+				AB7E74FC1796B16A002CABF1 /* Default-568h@2x.png in Resources */,
+				AB7E74FF1796B16A002CABF1 /* MainStoryboard.storyboard in Resources */,
+				ABDD18A41796C0E700F6111F /* Task.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7E74DE1796B16A002CABF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E74F21796B16A002CABF1 /* main.m in Sources */,
+				ABDD18921796BEEE00F6111F /* AppDelegate.m in Sources */,
+				ABDD18931796BEEE00F6111F /* TDOSettingsViewController.m in Sources */,
+				ABDD18941796BEEE00F6111F /* TDOTaskListViewController.m in Sources */,
+				ABDD18951796BEEE00F6111F /* TDODataManager.m in Sources */,
+				ABDD18961796BEEE00F6111F /* TDOTag.m in Sources */,
+				ABDD18971796BEEE00F6111F /* TDOTask.m in Sources */,
+				ABDD18981796BEEE00F6111F /* Toado.xcdatamodeld in Sources */,
+				ABDD18991796BEEE00F6111F /* TDOTaskCell.m in Sources */,
+				ABDD18A11796C06800F6111F /* TDOTaskViewController.m in Sources */,
+				AB04C4F417972ED5008659A9 /* TDOTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB7E74EE1796B16A002CABF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7E74EF1796B16A002CABF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB7E74FD1796B16A002CABF1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7E74FE1796B16A002CABF1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDD18A21796C0E700F6111F /* Task.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDD18A31796C0E700F6111F /* en */,
+			);
+			name = Task.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7E75031796B16A002CABF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB7E75041796B16A002CABF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7E75061796B16A002CABF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
+				INFOPLIST_FILE = "Toado/Toado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB7E75071796B16A002CABF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
+				INFOPLIST_FILE = "Toado/Toado-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7E74DD1796B16A002CABF1 /* Build configuration list for PBXProject "Toado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E75031796B16A002CABF1 /* Debug */,
+				AB7E75041796B16A002CABF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E75051796B16A002CABF1 /* Build configuration list for PBXNativeTarget "Toado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E75061796B16A002CABF1 /* Debug */,
+				AB7E75071796B16A002CABF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABDD188D1796BEEE00F6111F /* Toado.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABDD188E1796BEEE00F6111F /* Toado.xcdatamodel */,
+			);
+			currentVersion = ABDD188E1796BEEE00F6111F /* Toado.xcdatamodel */;
+			path = Toado.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB7E74DA1796B16A002CABF1 /* Project object */;
+}
