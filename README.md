@@ -1,3 +1,5 @@
+<img src="ToadoLogo.png" width="100px" height="100px" />
+
 Toado
 =====
 Toado is a very simple task manager demonstrating the integration of Core Data with the [Dropbox Datastore API](https://www.dropbox.com/developers/datastore) using [ParcelKit](https://github.com/overcommitted/ParcelKit).

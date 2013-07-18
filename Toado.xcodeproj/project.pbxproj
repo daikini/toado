@@ -25,6 +25,8 @@
 		AB7E75111796B1A9002CABF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */; };
 		AB7E75131796B1B5002CABF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */; };
 		AB7E75291796B94F002CABF1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75281796B94F002CABF1 /* CoreData.framework */; };
+		ABB60E211798819D00D1F2E3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB60E201798819D00D1F2E3 /* Icon.png */; };
+		ABB60E23179881A200D1F2E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB60E22179881A200D1F2E3 /* Icon@2x.png */; };
 		ABDD18921796BEEE00F6111F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18811796BEEE00F6111F /* AppDelegate.m */; };
 		ABDD18931796BEEE00F6111F /* TDOSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18831796BEEE00F6111F /* TDOSettingsViewController.m */; };
 		ABDD18941796BEEE00F6111F /* TDOTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18851796BEEE00F6111F /* TDOTaskListViewController.m */; };
@@ -61,6 +63,8 @@
 		AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AB7E75281796B94F002CABF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABB60E201798819D00D1F2E3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		ABB60E22179881A200D1F2E3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		ABDD18801796BEEE00F6111F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABDD18811796BEEE00F6111F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ABDD18821796BEEE00F6111F /* TDOSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOSettingsViewController.h; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 			children = (
 				AB7E74FD1796B16A002CABF1 /* MainStoryboard.storyboard */,
 				ABDD18A21796C0E700F6111F /* Task.xib */,
+				ABB60E22179881A200D1F2E3 /* Icon@2x.png */,
+				ABB60E201798819D00D1F2E3 /* Icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -290,6 +296,8 @@
 				AB7E74FC1796B16A002CABF1 /* Default-568h@2x.png in Resources */,
 				AB7E74FF1796B16A002CABF1 /* MainStoryboard.storyboard in Resources */,
 				ABDD18A41796C0E700F6111F /* Task.xib in Resources */,
+				ABB60E211798819D00D1F2E3 /* Icon.png in Resources */,
+				ABB60E23179881A200D1F2E3 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
