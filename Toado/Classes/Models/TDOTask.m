@@ -21,6 +21,7 @@
     NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"Task"];
     [fetchRequest setFetchLimit:1];
     [fetchRequest setSortDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:@"position" ascending:NO]]];
-    return [[[[[TDODataManager sharedManager].managedObjectContext executeFetchRequest:fetchRequest error:nil] lastObject] position] unsignedIntegerValue];
+    TDOTask *task = [[TDODataManager sharedManager].managedObjectContext executeFetchRequest:fetchRequest error:nil].lastObject;
+    return [task.position unsignedIntegerValue];
 }
 @end
