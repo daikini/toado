@@ -127,7 +127,7 @@
         if (objects) {
             for (NSManagedObject *managedObject in objects) {
                 if (![managedObject valueForKey:syncAttributeName]) {
-                    [managedObject setValue:[PKSyncManager syncId] forKey:syncAttributeName];
+                    [managedObject setValue:[PKSyncManager syncID] forKey:syncAttributeName];
                 }
             }
         } else {
