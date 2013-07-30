@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB04C4F417972ED5008659A9 /* TDOTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04C4F317972ED5008659A9 /* TDOTextField.m */; };
-		AB309D12179B0EC100F2BD50 /* ParcelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB309D11179B0EC100F2BD50 /* ParcelKit.framework */; };
 		AB7E74E61796B16A002CABF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E51796B16A002CABF1 /* UIKit.framework */; };
 		AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E71796B16A002CABF1 /* Foundation.framework */; };
 		AB7E74EA1796B16A002CABF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E91796B16A002CABF1 /* CoreGraphics.framework */; };
@@ -25,6 +24,7 @@
 		AB7E75111796B1A9002CABF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */; };
 		AB7E75131796B1B5002CABF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */; };
 		AB7E75291796B94F002CABF1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E75281796B94F002CABF1 /* CoreData.framework */; };
+		AB8577B417A8013D0083397C /* ParcelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8577B317A8013D0083397C /* ParcelKit.framework */; };
 		ABB60E211798819D00D1F2E3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB60E201798819D00D1F2E3 /* Icon.png */; };
 		ABB60E23179881A200D1F2E3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABB60E22179881A200D1F2E3 /* Icon@2x.png */; };
 		ABDD18921796BEEE00F6111F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDD18811796BEEE00F6111F /* AppDelegate.m */; };
@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		AB04C4F217972ED5008659A9 /* TDOTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTextField.h; sourceTree = "<group>"; };
 		AB04C4F317972ED5008659A9 /* TDOTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTextField.m; sourceTree = "<group>"; };
-		AB309D11179B0EC100F2BD50 /* ParcelKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParcelKit.framework; sourceTree = "<group>"; };
 		AB7E74E21796B16A002CABF1 /* Toado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E74E51796B16A002CABF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB7E74E71796B16A002CABF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,6 +62,7 @@
 		AB7E75101796B1A9002CABF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AB7E75121796B1B5002CABF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AB7E75281796B94F002CABF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB8577B317A8013D0083397C /* ParcelKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParcelKit.framework; sourceTree = "<group>"; };
 		ABB60E201798819D00D1F2E3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		ABB60E22179881A200D1F2E3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		ABDD18801796BEEE00F6111F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 				AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */,
 				AB7E74EA1796B16A002CABF1 /* CoreGraphics.framework in Frameworks */,
 				ABDD189D1796BF0800F6111F /* Dropbox.framework in Frameworks */,
-				AB309D12179B0EC100F2BD50 /* ParcelKit.framework in Frameworks */,
+				AB8577B417A8013D0083397C /* ParcelKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 		ABDD189A1796BF0800F6111F /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				AB309D11179B0EC100F2BD50 /* ParcelKit.framework */,
+				AB8577B317A8013D0083397C /* ParcelKit.framework */,
 				ABDD189B1796BF0800F6111F /* Dropbox.framework */,
 			);
 			path = Vendor;
