@@ -89,8 +89,10 @@
                     self.syncManager = [[PKSyncManager alloc] initWithManagedObjectContext:self.managedObjectContext datastore:datastore];
                     [self.syncManager setTablesForEntityNamesWithDictionary:@{@"Task": @"tasks", @"Tag": @"tags"}];
                     
-                    if ([[datastore getTables:nil] count] == 0) {
-                        NSError *error = nil;
+                    NSError *error = nil;
+                    if (![self addMissingSyncAttributeValueToCoreDataObjects:&error]) {
+                       NSLog(@"Error adding missing sync attribute value to Core Data objects: %@", error); 
+                    } else if ([[datastore getTables:nil] count] == 0) {
                         if (![self updateDropboxFromCoreData:&error]) {
                             NSLog(@"Error updating Dropbox from Core Data: %@", error);
                         }
@@ -147,10 +149,6 @@
 
 - (BOOL)updateDropboxFromCoreData:(NSError **)error
 {
-    if (![self addMissingSyncAttributeValueToCoreDataObjects:error]) {
-        return NO;
-    }
-    
     __block BOOL result = YES;
     NSManagedObjectContext *managedObjectContext = self.syncManager.managedObjectContext;
     DBDatastore *datastore = self.syncManager.datastore;
