@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB04C4F417972ED5008659A9 /* TDOTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04C4F317972ED5008659A9 /* TDOTextField.m */; };
-		AB60234317BD27B8007C5DC4 /* ParcelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB60234217BD27B8007C5DC4 /* ParcelKit.framework */; };
+		AB5FD1FF17E9121F002563D7 /* ParcelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5FD1FE17E9121F002563D7 /* ParcelKit.framework */; };
 		AB60234517BD27F1007C5DC4 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB60234417BD27F1007C5DC4 /* Dropbox.framework */; };
 		AB7E74E61796B16A002CABF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E51796B16A002CABF1 /* UIKit.framework */; };
 		AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7E74E71796B16A002CABF1 /* Foundation.framework */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		AB04C4F217972ED5008659A9 /* TDOTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOTextField.h; sourceTree = "<group>"; };
 		AB04C4F317972ED5008659A9 /* TDOTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOTextField.m; sourceTree = "<group>"; };
-		AB60234217BD27B8007C5DC4 /* ParcelKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParcelKit.framework; sourceTree = "<group>"; };
+		AB5FD1FE17E9121F002563D7 /* ParcelKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParcelKit.framework; sourceTree = "<group>"; };
 		AB60234417BD27F1007C5DC4 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
 		AB7E74E21796B16A002CABF1 /* Toado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toado.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7E74E51796B16A002CABF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -101,7 +101,7 @@
 				AB7E74E61796B16A002CABF1 /* UIKit.framework in Frameworks */,
 				AB7E74E81796B16A002CABF1 /* Foundation.framework in Frameworks */,
 				AB7E74EA1796B16A002CABF1 /* CoreGraphics.framework in Frameworks */,
-				AB60234317BD27B8007C5DC4 /* ParcelKit.framework in Frameworks */,
+				AB5FD1FF17E9121F002563D7 /* ParcelKit.framework in Frameworks */,
 				AB60234517BD27F1007C5DC4 /* Dropbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +232,7 @@
 		ABDD189A1796BF0800F6111F /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				AB60234217BD27B8007C5DC4 /* ParcelKit.framework */,
+				AB5FD1FE17E9121F002563D7 /* ParcelKit.framework */,
 				AB60234417BD27F1007C5DC4 /* Dropbox.framework */,
 			);
 			path = Vendor;
@@ -415,8 +415,9 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Vendor\"",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/Vendor\\\"",
+					/Volumes/MacintoshHD/Projects/Daikini/Toado/Vendor,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
@@ -431,8 +432,9 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Vendor\"",
+					"$(SRCROOT)",
+					"\\\"$(SRCROOT)/Vendor\\\"",
+					/Volumes/MacintoshHD/Projects/Daikini/Toado/Vendor,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
