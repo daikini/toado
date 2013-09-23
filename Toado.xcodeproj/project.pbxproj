@@ -416,8 +416,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
-					"\\\"$(SRCROOT)/Vendor\\\"",
-					/Volumes/MacintoshHD/Projects/Daikini/Toado/Vendor,
+					"$(SRCROOT)/Vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
@@ -433,8 +432,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
-					"\\\"$(SRCROOT)/Vendor\\\"",
-					/Volumes/MacintoshHD/Projects/Daikini/Toado/Vendor,
+					"$(SRCROOT)/Vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Toado/Toado-Prefix.pch";
