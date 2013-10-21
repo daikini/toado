@@ -10,8 +10,8 @@
 #import <Dropbox/Dropbox.h>
 #import "TDODataManager.h"
 
-#define DropboxAppKey @""
-#define DropboxAppSecret @""
+#define DropboxAppKey @"299cu41ndrjd7o3"
+#define DropboxAppSecret @"ntmxbty37vvklsi"
 
 @interface AppDelegate ()
 @end
