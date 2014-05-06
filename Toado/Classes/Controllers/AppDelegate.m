@@ -28,7 +28,7 @@
     }
     
     [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0 green:128/255.0f blue:64/255.0f alpha:1.0f]];
-    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName: @"HelveticaNeue"} forState:UIControlStateNormal];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue" size:14.0]} forState:UIControlStateNormal];
     
     return YES;
 }
